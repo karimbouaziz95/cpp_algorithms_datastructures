@@ -20,12 +20,12 @@
 *.sdf
 *.bak
 *.db
-Release/
-Debug/
+**/Release/
+**/Debug/
 **/build_*/
 *./Browse.VC.db
 *Browse.VC.db
-.vs/
+Tutorial/.vs/
 **/build_vs2013/
 **/build_vs2019/
 **/build_vs2013_release/
