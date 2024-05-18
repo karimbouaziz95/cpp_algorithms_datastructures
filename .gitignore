@@ -13,8 +13,6 @@
 *.orig
 *.zip
 **/win32/
-**/SB-CE60-TR4 (ARMV4I)/
-**/SBValFsd (ARMV4I)/
 *.user
 *.ncb
 *.suo
@@ -22,21 +20,12 @@
 *.sdf
 *.bak
 *.db
-**/ipch/
-**/GeneratedFiles/
-**/CodeDB/
-**/Debug_Linux_arm/
-**/Release_Linux_arm/
-**/Debug_Linux_x86/
-**/Release_Linux_x86/
-**/SimpleLoggingTests/
-**/Release/
-**/Debug/
+Release/
+Debug/
 **/build_*/
 *./Browse.VC.db
 *Browse.VC.db
-*./.vs/
-**/.vs/
+.vs/
 **/build_vs2013/
 **/build_vs2019/
 **/build_vs2013_release/
