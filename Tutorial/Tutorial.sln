@@ -17,6 +17,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursion", "Recursion\Recu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sorting", "Sorting\Sorting.vcxproj", "{F615230D-FF1D-4813-99EE-2FFEBD6C3AE6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Searching+BFS+DFS", "Searching+BFS+DFS\Searching+BFS+DFS.vcxproj", "{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46558732-7DED-44DD-A71A-B2C5E7514461} = {46558732-7DED-44DD-A71A-B2C5E7514461}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +86,14 @@ Global
 		{F615230D-FF1D-4813-99EE-2FFEBD6C3AE6}.Release|x64.Build.0 = Release|x64
 		{F615230D-FF1D-4813-99EE-2FFEBD6C3AE6}.Release|x86.ActiveCfg = Release|Win32
 		{F615230D-FF1D-4813-99EE-2FFEBD6C3AE6}.Release|x86.Build.0 = Release|Win32
+		{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}.Debug|x64.ActiveCfg = Debug|x64
+		{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}.Debug|x64.Build.0 = Debug|x64
+		{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}.Debug|x86.ActiveCfg = Debug|Win32
+		{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}.Debug|x86.Build.0 = Debug|Win32
+		{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}.Release|x64.ActiveCfg = Release|x64
+		{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}.Release|x64.Build.0 = Release|x64
+		{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}.Release|x86.ActiveCfg = Release|Win32
+		{C088FAC1-E0AF-4ABB-9F65-909EF9A65512}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

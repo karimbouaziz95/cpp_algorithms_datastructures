@@ -10,9 +10,9 @@ public:
 
 	void insert(int value);
 	Node* lookup(int value);
+	Node* root;
 
 private:
-	Node* root;
 	bool is_empty;
 	void destroyTree(Node* node);
 };
