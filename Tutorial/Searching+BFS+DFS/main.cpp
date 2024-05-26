@@ -14,12 +14,21 @@ int main() {
 	tree.insert(1);
 
 	//breadthFirstSearch(tree);
-	std::queue<Node*> queue;
+	//std::queue<Node*> queue;
 	std::vector<int> list;
 
-	queue.push(tree.root);
+	//queue.push(tree.root);
 
-	breadthFirstSearchRecursive(queue, list);
+	//breadthFirstSearchRecursive(queue, list);
+	 
+	//DFSInOrder(tree.root, list);
+	//DFSPreOrder(tree.root, list);
+	DFSPostOrder(tree.root, list);
+
+	for (auto num : list) {
+		std::cout << num << " ";
+	}
+	std::cout << std::endl;
 
 
 	return 0;

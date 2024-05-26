@@ -38,3 +38,33 @@ void breadthFirstSearchRecursive(std::queue<Node*>& queue, std::vector<int>& lis
 
 	return breadthFirstSearchRecursive(queue, list);
 }
+
+void DFSInOrder(Node* node, std::vector<int>& list) {
+	if (node->left != nullptr) {
+		DFSInOrder(node->left, list);
+	}
+	list.push_back(node->value);
+	if (node->right != nullptr) {
+		DFSInOrder(node->right, list);
+	}
+}
+
+void DFSPreOrder(Node* node, std::vector<int>& list) {
+	list.push_back(node->value);
+	if (node->left != nullptr) {
+		DFSPreOrder(node->left, list);
+	}
+	if (node->right != nullptr) {
+		DFSPreOrder(node->right, list);
+	}
+}
+
+void DFSPostOrder(Node* node, std::vector<int>& list) {
+	if (node->left != nullptr) {
+		DFSPostOrder(node->left, list);
+	}
+	if (node->right != nullptr) {
+		DFSPostOrder(node->right, list);
+	}
+	list.push_back(node->value);
+}
